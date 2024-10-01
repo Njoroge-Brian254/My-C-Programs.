@@ -1,0 +1,13 @@
+/*
+Hello world program
+Author:Brian Njoroge
+Date:8/09/2024
+*/
+#include<stdio.h>
+
+int main (){
+    printf("Hello world!");
+
+    return 0;
+}
+
