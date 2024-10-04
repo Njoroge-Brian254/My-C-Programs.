@@ -1,0 +1,17 @@
+//cube of number using do..while
+#include<stdio.h>
+int main(){
+int a,b=1,cube;
+printf("enter a number:");
+scanf("%d",&a);
+printf("number is %d\n,a");
+ do{
+        cube=b*b*b;
+    printf("the number is %d\n",b);
+    printf("the cube of %d is %d\n",b,cube);
+    b++;
+
+
+} while(b<=a);
+    return 0;
+}
